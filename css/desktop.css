@@ -58,8 +58,16 @@
 
   /* --------FOOTER------ */
 
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .footer .container {
-    display: flex;
+  }
+
+  .footer-first .logo {
+    text-align: start;
   }
 
   .footer-first {

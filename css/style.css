@@ -585,7 +585,8 @@ body {
 
 /* --------FOOTER------ */
 .footer {
-  padding: 100px 0px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background-color: var(--backround-section-dark);
 }
 
@@ -593,11 +594,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  justify-content: center;
 }
 
-.footer .logo {
+.footer-first {
+  width: 268px;
+  margin-bottom: 72px;
+}
+
+.footer-first .logo {
   color: #f4f4fd;
-  margin-right: 0px;
   padding: 0px;
 }
 
@@ -606,16 +612,16 @@ body {
   margin-top: 16px;
 }
 
+.footer-second {
+  margin-bottom: 72px;
+}
+
 .footer-title {
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   margin-bottom: 16px;
-}
-
-.footer-first {
-  width: 264px;
-  /* margin-right: 120px; */
+  text-align: center;
 }
 
 .footer-soc-list {
@@ -661,12 +667,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 16px;
+  text-align: center;
 }
-.footer-form {
-  display: flex;
-}
+
 .footer-input {
-  width: 264px;
+  width: 396px;
   height: 40px;
 
   background-color: transparent;
@@ -674,7 +679,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 24px;
+  margin-bottom: 16px;
 }
 
 .footer-input::placeholder {
@@ -692,12 +697,15 @@ body {
   align-items: center;
 
   min-width: 165px;
+  height: 40px;
 
   padding: 8px 24px;
   background-color: var(--bt-bg-color);
   color: var(--primary-white-color);
 
   border-radius: 4px;
+
+  margin: 0 auto;
 }
 
 .footer-buttom-wrap {
