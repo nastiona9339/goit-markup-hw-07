@@ -1,0 +1,73 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  /* --------Advantages section------ */
+
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .advantages-items {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .advantages-icon {
+    display: block;
+  }
+
+  /* --------Examples section------ */
+  .examples {
+    display: contents;
+  }
+
+  /* __________TEAM_________ */
+  .team {
+    padding: 120px 0px;
+  }
+
+  .team-card:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .team-list > .team-card {
+    margin-bottom: 0;
+  }
+
+  /* _________CUSTOMERS___________ */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-items:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .customers-list > .customers-items {
+    margin-bottom: 0;
+  }
+
+  /* --------FOOTER------ */
+
+  .footer .container {
+    display: flex;
+  }
+
+  .footer-first {
+    width: 264px;
+    margin-right: 120px;
+  }
+
+  .footer-third {
+    margin-left: 80px;
+  }
+}
