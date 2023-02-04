@@ -56,6 +56,25 @@
     margin-bottom: 0;
   }
 
+  /* _______PORTFOLIO_________ */
+
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-filter {
+    margin-bottom: 72px;
+  }
+
+  .works-list {
+    row-gap: 48px;
+  }
+
+  .works-items {
+    width: calc((100% - 58px) / 3);
+  }
+
   /* --------FOOTER------ */
 
   .footer {

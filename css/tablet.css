@@ -57,6 +57,30 @@
     margin-bottom: 0;
   }
 
+  /* _______PORTFOLIO_________ */
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-filter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    margin-bottom: 64px;
+  }
+
+  .works-list {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .works-items {
+    width: calc((100% - 24px) / 2);
+  }
+
   /* --------FOOTER------ */
 
   .footer .container {
