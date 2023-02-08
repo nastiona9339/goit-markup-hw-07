@@ -3,6 +3,11 @@
     width: 1158px;
   }
 
+  /* ------------HEADER ----------------*/
+  .address-list {
+    display: flex;
+  }
+
   /* --------Hero section------ */
 
   .hero {
