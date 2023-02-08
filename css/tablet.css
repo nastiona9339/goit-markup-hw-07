@@ -20,6 +20,10 @@
   display: flex;
 }
 
+.address-name {
+  margin-top: 24px;
+}
+
  .address-list {
     display: block;
   }
@@ -110,7 +114,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    linear-gradient(
+    linear-gradient (
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -235,4 +239,13 @@
     height: 40px;
     margin-right: 24px;
   }
+
+  /* _____Modal______ */
+
+.modal {
+  min-width: 408px;
+  min-height: 586px;
 }
+}
+
+

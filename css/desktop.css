@@ -8,6 +8,10 @@
     display: flex;
   }
 
+  .address-name {
+  margin-top: 0;
+}
+
   /* --------Hero section------ */
 
   .hero {
@@ -124,4 +128,12 @@
   .footer-third {
     margin-left: 80px;
   }
+  /* _____Modal______ */
+
+.modal {
+  min-width: 408px;
+  min-height: 584px;
 }
+}
+
+
