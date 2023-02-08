@@ -4,6 +4,11 @@
   }
 
   /* ------------HEADER ----------------*/
+
+  .mob-menu {
+    display: none;
+  }
+  
   .address-list {
     display: flex;
   }
