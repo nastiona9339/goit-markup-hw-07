@@ -11,10 +11,9 @@
 }
 
   /* ------------HEADER ----------------*/
-
-  .mob-menu {
+  
+.mob-menu.is-hidden {
     display: none;
-
   }
 
 .menu-open {

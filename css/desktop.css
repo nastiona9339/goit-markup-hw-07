@@ -5,9 +5,7 @@
 
   /* ------------HEADER ----------------*/
 
-  .mob-menu.is-hidden {
-    display: none;
-  }
+  
 
   .address-list {
     display: flex;
