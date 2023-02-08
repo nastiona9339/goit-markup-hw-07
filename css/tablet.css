@@ -12,6 +12,10 @@
 
   /* ------------HEADER ----------------*/
 
+  .mob-menu {
+    display: none;
+  }
+
 .menu-open {
   display: none;
 }
