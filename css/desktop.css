@@ -5,10 +5,10 @@
 
   /* ------------HEADER ----------------*/
 
-  .mob-menu {
+  .mob-menu.is-hidden {
     display: none;
   }
-  
+
   .address-list {
     display: flex;
   }
