@@ -5,15 +5,23 @@
 
   /* ------------HEADER ----------------*/
 
-  
-
   .address-list {
     display: flex;
   }
 
+  .address-list > li:not(:last-child) {
+    margin-right: 40px;
+  }
+
   .address-name {
-  margin-top: 0;
-}
+    margin-top: 0;
+  }
+
+  .header-link,
+  .header-mail,
+  .header-tel {
+    padding: 24px 0px;
+  }
 
   /* --------Hero section------ */
 
@@ -26,22 +34,30 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-bg-desk-2x.jpg);
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient
+          (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-bg-desk-2x.jpg);
+    }
   }
-}
 
   /* --------Advantages section------ */
 
   .advantages {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .advantages-description {
+    font-weight: 400;
   }
 
   .advantages-list {
@@ -59,7 +75,8 @@
 
   /* --------Examples section------ */
   .examples {
-    display: contents;
+    padding-bottom: 120px;
+    display: block;
   }
 
   /* __________TEAM_________ */
@@ -126,17 +143,22 @@
   .footer-first {
     width: 264px;
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-second {
+    margin-bottom: 0;
   }
 
   .footer-third {
     margin-left: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
   }
   /* _____Modal______ */
 
-.modal {
-  min-width: 408px;
-  min-height: 584px;
+  .modal {
+    min-width: 408px;
+    min-height: 584px;
+  }
 }
-}
-
-
