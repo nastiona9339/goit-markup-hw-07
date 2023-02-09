@@ -168,6 +168,10 @@
 
   /* _____CUSTOMERS___________ */
 
+  .customers > .container {
+    width: 582px;
+  }
+
   .customers-list > .customers-items {
     width: 168px;
     margin-right: 24px;
