@@ -246,9 +246,6 @@ body {
 .menu-soc-link:focus {
   background-color: var(--icon-acc-color);
 }
-.menu-soc-items:not(:last-child) {
-  margin-right: 24px;
-}
 
 .menu-close {
   display: flex;
@@ -305,9 +302,11 @@ body {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient
-        (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/hero-bg-mob-2x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero-bg-mob-2x.jpg");
   }
 }
 

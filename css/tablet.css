@@ -96,16 +96,18 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg-tab-1x.jpg);
+      url("../images/hero-bg-tab-1x.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient
-          (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero-bg-hero-2x.jpg);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-bg-tab-2x.jpg");
     }
   }
 
@@ -139,6 +141,10 @@
 
   .team {
     padding-bottom: 104px;
+  }
+
+  .team > .container {
+    width: 582px;
   }
 
   .team-list {
@@ -201,8 +207,12 @@
 
   /* --------FOOTER------ */
 
+  .footer > .container {
+    width: 582px;
+  }
+
   .footer .container {
-    text-align: start;
+    justify-content: left;
   }
 
   .footer-logo {
@@ -212,11 +222,6 @@
 
   .footer-first {
     margin-right: 24px;
-  }
-
-  .footer-third {
-    margin-left: 120px;
-    margin-right: auto;
   }
 
   .footer-title {
